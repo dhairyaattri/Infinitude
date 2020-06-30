@@ -1,0 +1,229 @@
+  @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+  @import url(https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap);
+  
+  .navbar {
+    background-color: transparent;
+  }
+
+  .scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  
+  .top-nav-collapse {
+    background-color: black;
+  }
+  
+  .colnav{
+    color: whitesmoke;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      background-color: transparent;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      background-color: black;
+    }
+  }
+
+  html,
+  body,
+  .view {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media (max-width: 740px) {
+    html, 
+    body,
+    .carousel {
+    height: 90%;
+    } 
+  }
+
+  .carousel,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100%;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item:nth-child(4) {
+    background-image: url("images/dbanner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-item:nth-child(2) {
+    background-image: url("images/dbanner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-item:nth-child(3) {
+    background-image: url("images/dbanner4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+ 
+  .navbar-brand{
+    font-family: 'Raleway', sans-serif;    
+    font-size: 30px;
+  }
+  
+  .nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: small;
+    margin-right: 60px;
+    letter-spacing: 3px;
+  }
+
+  .navbar-nav .nav-link {
+    color: white;
+  }  
+
+.nav-item.active .nav-link,
+.nav-item:focus .nav-link,
+.nav-item:hover .nav-link {
+    color: #F4AB33;
+}
+
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+
+span{
+  color: #F4AB33;
+}
+
+.intro{
+  scroll-padding: none;
+  padding: 80px;
+}
+
+p{
+  text-align: justify;
+  font-size: large;
+}
+
+h1{
+  font-weight: 900;
+}
+
+ .jumbotron{
+  background-color: #F7F7F7;
+  box-shadow: none;
+ }
+
+ .jumbotron:hover{
+   box-shadow: none;
+ }
+
+ .introimg{
+   padding-top: 15px;
+ }
+
+ .padbw{
+   padding-right: 30px;
+   padding-left: 30px;
+   padding-bottom: -20px;
+ }
+
+.service{
+  font-size: medium;
+}
+
+h4{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h4:hover{
+  color: #F4AB33;
+}
+
+hr{
+  width: 50%;
+}
+
+.banner-provide{
+  max-width: 100%;
+  background-image: url("images/dbanner4.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  color: white;
+  margin-top: -30px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h5:hover{
+  color: #F4AB33;
+}
+
+.img-ab{
+  padding-top: 35px ; 
+}
+
+.three{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.udhar{
+  padding-left: 25px;
+}
+
+h2{
+  color: black;
+}
+h2:hover{
+  color: #F4AB33;
+}
+
+.formp{
+  margin-top: -20px;
+}
+
+.sectionform{
+  overflow-x: hidden;
+  background-image: url("images/dbanner4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.border-top {
+  border-top: 5px solid #F4AB33 !important;
+  border-top-left-radius: .25rem!important;
+  border-top-right-radius: .25rem!important;
+}
+
+.contactline{
+  padding-left: 46px;
+}
+
+.alert{
+  color: green;
+  display: none;
+}
